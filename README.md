@@ -1,4 +1,4 @@
-# Simple React and Express app SAML login by Okta 
+﻿# Simple React and Express app SAML login by Okta 
 
 This is a very simple integration to demonstrate SSO via SAML [Okta](https://www.okta.com/)
 
@@ -56,9 +56,6 @@ Application username: Okta username
 ```
 After you finish this step, you will need to copy `Identity Provider Single Sign-On URL` and `X.509 Certificate` found after you click on **View Setup Instructions**.Afterwards, add your copied `Identity Provider Single Sign-On URL` to the `entryPoint` property in `config.ts` under `saml` property, then add your application's `X.509 Certificate` in `saml.pem`.
 
-## Reference 
-- [Okta developer docs](https://developer.okta.com/docs/)
-- [React SAML Authentication](https://www.youtube.com/watch?v=xUL59SKiwmE) by [@joeythelantern](https://github.com/joeythelantern) 🙏 Thank You
 
 **Congratulation! you are done! 🥳**
 
